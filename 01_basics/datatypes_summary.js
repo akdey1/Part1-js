@@ -13,5 +13,5 @@ let myObj = {
 const myFunc = function(){
    console.log("hi");
 } 
-console.log(myFunc);
+myFunc(); 
 console.log(typeof heros);
