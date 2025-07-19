@@ -32,4 +32,3 @@ console.log(finalarr);
 
 console.log(Array.isArray("arnav"));//checking if it is a array
 console.log(Array.from("arnav"));//making it a array
-
