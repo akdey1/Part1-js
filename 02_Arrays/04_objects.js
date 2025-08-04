@@ -1,7 +1,32 @@
-const instructor = {
-    name : "akd",
-    email : "tabruktabruk"
-} 
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
 
-const {name} = instructor 
-console.log(name);
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+] 
+
+/* react idea 
+
+const navbar = ({company}) => {
+
+} 
+navbar(company = "Arnav") 
+*/ 
